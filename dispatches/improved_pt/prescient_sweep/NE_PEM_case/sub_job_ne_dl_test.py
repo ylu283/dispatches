@@ -13,11 +13,11 @@ def submit_job(pem_mw, pem_bid):
     with open(file_name, "w") as f:
         f.write(
             "#!/bin/bash\n"
-            + "#$ -M xchen24@nd.edu\n"
+            + "#$ -M ylu28@nd.edu\n"
             + "#$ -m ae\n"
             + "#$ -q long\n"
             + f"#$ -N test_ne_pcm_sweep_mw_{pem_mw}_bid_{pem_bid}\n"
-            + "conda activate regen\n"
+            + "conda activate prescient_env\n"
             + "export LD_LIBRARY_PATH=~/.conda/envs/regen/lib:$LD_LIBRARY_PATH \n"
             + "module load gurobi/9.5.1\n"
             + "module load ipopt/3.14.2 \n"
