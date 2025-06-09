@@ -16,7 +16,7 @@ def submit_job():
             + "#$ -m ae\n"
             + "#$ -q long\n"
             + f"#$ -N base_PCM_sim\n"
-            + "conda activate dispatches\n"
+            + "conda activate users/ylu28//dispatches\n"
             + "export LD_LIBRARY_PATH=~/.conda/envs/dispatches/lib:$LD_LIBRARY_PATH \n"
             + "module load gurobi/10.0.2\n"
             + "module load ipopt/3.14.2 \n"
