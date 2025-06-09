@@ -17,9 +17,9 @@ def submit_job(pem_mw, pem_bid):
             + "#$ -m ae\n"
             + "#$ -q long\n"
             + f"#$ -N test_ne_pcm_sweep_mw_{pem_mw}_bid_{pem_bid}\n"
-            + "conda activate prescient_env\n"
+            + "conda activate dispatches\n"
             + "export LD_LIBRARY_PATH=~/.conda/envs/regen/lib:$LD_LIBRARY_PATH \n"
-            + "module load gurobi/9.5.1\n"
+            + "module load gurobi/10.0.2\n"
             + "module load ipopt/3.14.2 \n"
             + f"python ./run_double_loop_NE_PEM_parameterized_bidder.py --pem_pmax {pem_mw}"
         )

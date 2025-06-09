@@ -9,7 +9,7 @@ this_file_path = os.path.dirname(os.path.realpath(__file__))
 shortfall = 500
 prescient_options = {
         "data_path":rtsgmlc_path,
-        "reserve_factor":None,
+        "reserve_factor":0,
         "simulate_out_of_sample":True,
         "output_directory":None,
         "monitor_all_contingencies":False,
