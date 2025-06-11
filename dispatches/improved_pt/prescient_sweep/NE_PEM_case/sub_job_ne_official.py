@@ -19,7 +19,7 @@ def submit_job(index, pem_pmax_ratio, pem_bid):
             + "#$ -q long\n"
             + f"#$ -N NE_PEM_pcm_sweep_bid_{pem_bid}_{index}\n"
             + "conda activate /users/ylu28/dispatches\n"
-            + "export LD_LIBRARY_PATH=~/.conda/envs/regen/lib:$LD_LIBRARY_PATH \n"
+            + "export LD_LIBRARY_PATH=~/.conda/envs/dispatches/lib:$LD_LIBRARY_PATH \n"
             + "module load gurobi/10.0.2\n"
             + "module load ipopt/3.14.2 \n"
             + f"python ./nuclear_sweep_test.py --index {index} --pem_pmax_ratio {pem_pmax_ratio} --pem_bid {pem_bid}"
