@@ -14,17 +14,16 @@ def submit_job(index, pem_pmax_ratio, pem_bid):
     with open(file_name, "w") as f:
         f.write(
             "#!/bin/bash\n"
-            + "#$ -M xchen24@nd.edu\n"
+            + "#$ -M ylu28@nd.edu\n"
             + "#$ -m ae\n"
             + "#$ -q long\n"
-            + f"#$ -N test_re_pcm_sweep_bid_{pem_bid}_{index}\n"
-            + "conda activate regen\n"
-            + "export LD_LIBRARY_PATH=~/.conda/envs/regen/lib:$LD_LIBRARY_PATH \n"
-            + "module load gurobi/9.5.1\n"
+            + f"#$ -N base_PCM_sim\n"
+            + "conda activate /users/ylu28/dispatches\n"
+            + "export LD_LIBRARY_PATH=~/.conda/envs/dispatches/lib:$LD_LIBRARY_PATH \n"
+            + "module load gurobi/10.0.2\n"
             + "module load ipopt/3.14.2 \n"
-            + f"python ./wind_PEM_sweep_test.py --index {index} --pem_pmax_ratio {pem_pmax_ratio} --pem_bid {pem_bid}"
+            + f"python ./base_pcm_simulation.py"
         )
-
     os.system(f"qsub {file_name}")
 
 
