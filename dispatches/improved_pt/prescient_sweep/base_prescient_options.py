@@ -11,7 +11,7 @@ prescient_options = {
         # "data_path":"gtep/data/123_Bus_Coal/Prescient",
         "input_format":"rts-gmlc",
         "simulate_out_of_sample":False,
-        "run_sced_with_persistent_forcast_errors": False,
+        "run_sced_with_persistent_forecast_errors": False,
         # "output_directory":"gtep/data/123_Bus_Coal/Prescient/results",
         "start_date": "01-01-2035",
         "num_days":365,
