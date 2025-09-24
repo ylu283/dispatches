@@ -9,7 +9,7 @@ this_file_path = os.path.dirname(os.path.realpath(__file__))
 shortfall = 500
 prescient_options = {
         # "data_path":"gtep/data/123_Bus_Coal/Prescient",
-        "Input_format":"rts-gmlc",
+        "ißnput_format":"rts-gmlc",
         "simulate_out_of_sample":False,
         "run_sced_with_persistent_forcast_errors": False,
         # "output_directory":"gtep/data/123_Bus_Coal/Prescient/results",
