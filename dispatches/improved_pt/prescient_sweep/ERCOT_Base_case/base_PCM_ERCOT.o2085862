@@ -1,0 +1,9 @@
+Initializing simulation...
+Traceback (most recent call last):
+  File "./base_pcm_ERCOT.py", line 9, in <module>
+    Prescient().simulate(**prescient_options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/prescient.py", line 73, in simulate
+    self.config.set_value(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pyomo/common/config.py", line 2307, in set_value
+    raise ValueError(
+ValueError: key 'Input_format' not defined for ConfigDict '' and implicit (undefined) keys are not allowed

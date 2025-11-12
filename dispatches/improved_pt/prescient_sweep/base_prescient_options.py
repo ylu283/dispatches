@@ -1,17 +1,21 @@
 import os
 from dispatches_sample_data import rts_gmlc
-from dispatches.case_studies.renewables_case.double_loop_utils import read_rts_gmlc_wind_inputs
+# from dispatches.case_studies.renewables_case.double_loop_utils import read_rts_gmlc_wind_inputs
 
 
 rtsgmlc_path = rts_gmlc.source_data_path
 this_file_path = os.path.dirname(os.path.realpath(__file__))
+# output_path = os.path.join("NE_PEM_case", f"base_case_pcm_benchmark")
+output_path = os.path.join("NE_PEM_case", f"base_case_pcm_benchmark_renepem")
+
 # default some options
 shortfall = 500
 prescient_options = {
         "data_path":rtsgmlc_path,
-        "reserve_factor":None,
+#        "reserve_factor":None,
+	"reserve_factor": 0.1,
         "simulate_out_of_sample":True,
-        "output_directory":None,
+        "output_directory":output_path,
         "monitor_all_contingencies":False,
         "input_format":"rts-gmlc",
         "start_date":"01-01-2020",
@@ -19,14 +23,14 @@ prescient_options = {
         "sced_horizon":1,
         "ruc_mipgap":0.01,
 	    "deterministic_ruc_solver": "gurobi",
-	    "deterministic_ruc_solver_options" : {"threads":2, "heurstrategy":2, "cutstrategy":3, "symmetry":2, "maxnode":1000},
+#	    "deterministic_ruc_solver_options" : {"threads":2, "heurstrategy":2, "cutstrategy":3, "symmetry":2, "maxnode":1000},
         "sced_solver":"gurobi",
         "sced_frequency_minutes":60,
 	    "sced_solver_options" : {"threads":1},
         "ruc_horizon":36,
         "compute_market_settlements":True,
         "output_solver_logs":False,
-        "price_threshold":None,
+        "price_threshold":shortfall,
         "transmission_price_threshold":None,
         "contingency_price_threshold":None,
         "reserve_price_threshold":None,
@@ -44,8 +48,8 @@ prescient_options = {
 
 # read the wind capacity factor dataframe and make a NPP capacity factor in the same format
 # this is for the perfect forecaster
-wind_generator = "303_WIND_1"
-NPP_df = read_rts_gmlc_wind_inputs(rts_gmlc.source_data_path, wind_generator)
-NPP_df.columns = ["121_NUCLEAR_1-RTCF", "121_NUCLEAR_1-DACF"]
-NPP_df["121_NUCLEAR_1-RTCF"] = 1.0
-NPP_df["121_NUCLEAR_1-DACF"] = 1.0
+# wind_generator = "303_WIND_1"
+# NPP_df = read_rts_gmlc_wind_inputs(rts_gmlc.source_data_path, wind_generator)
+# NPP_df.columns = ["121_NUCLEAR_1-RTCF", "121_NUCLEAR_1-DACF"]
+# NPP_df["121_NUCLEAR_1-RTCF"] = 1.0
+# NPP_df["121_NUCLEAR_1-DACF"] = 1.0

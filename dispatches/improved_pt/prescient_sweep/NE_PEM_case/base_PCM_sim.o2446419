@@ -1,0 +1,5508 @@
+Initializing simulation...
+Did not find reserves.csv; assuming no reserves
+Setting default t0 state in RTS-GMLC parser
+Dates to simulate: 2020-01-01 to 2020-12-31
+RUC activation hours: 0
+Final RUC date: 2020-12-31
+Using current day's forecasts for RUC solves
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+Calculating PTDF Matrix Factorization
+
+Pyomo model construction time:         2.79
+
+Pyomo model solve time: 93.73430490493774
+
+Deterministic RUC Cost: 1515685.87
+
+Fixed costs:      1237572.27
+Variable costs:    278113.60
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-01 00:00       435.77
+2020-01-01 01:00       655.15
+2020-01-01 02:00       490.23
+2020-01-01 03:00       425.70
+2020-01-01 04:00       233.34
+2020-01-01 08:00       288.63
+2020-01-01 09:00       252.26
+2020-01-01 10:00        65.01
+2020-01-02 07:00        41.54
+2020-01-02 08:00       208.13
+2020-01-02 09:00       165.66
+2020-01-02 10:00       299.51
+2020-01-02 11:00       241.37
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+Simulating time_step  2020-01-01 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       764.54
+
+Renewables curtailment reported at t=1 - total=      737.97
+
+Number on/offs:                 58
+Sum on/off ramps:             0.00
+Sum nominal ramps:           48.00
+
+Simulating time_step  2020-01-01 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      811.58
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-01 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      815.16
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-01 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      727.60
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-01 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      747.56
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-01 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       764.54
+
+Renewables curtailment reported at t=1 - total=      580.66
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-01 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      2466.79
+
+Renewables curtailment reported at t=1 - total=      299.01
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           99.70
+
+Simulating time_step  2020-01-01 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      4205.17
+
+Renewables curtailment reported at t=1 - total=      272.01
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           90.03
+
+Simulating time_step  2020-01-01 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=      984.09
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          177.72
+
+Simulating time_step  2020-01-01 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      1120.32
+
+Renewables curtailment reported at t=1 - total=     1096.49
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            9.00
+
+Simulating time_step  2020-01-01 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      995.47
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-01 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      1290.06
+
+Renewables curtailment reported at t=1 - total=      486.78
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-01 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      3443.03
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          121.55
+
+Simulating time_step  2020-01-01 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:      7380.24
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          203.67
+
+Simulating time_step  2020-01-01 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       125927.84
+Variable costs:       857.41
+
+Renewables curtailment reported at t=1 - total=        4.94
+
+Number on/offs:                  3
+Sum on/off ramps:           510.00
+Sum nominal ramps:          350.23
+
+Simulating time_step  2020-01-01 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        74385.60
+Variable costs:      1002.89
+
+Renewables curtailment reported at t=1 - total=      126.60
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:           32.40
+
+Simulating time_step  2020-01-01 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-02 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         2.59
+
+Pyomo model solve time: 80.2369647026062
+
+Deterministic RUC Cost: 1231912.15
+
+Fixed costs:       995959.60
+Variable costs:    235952.56
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-02 07:00       202.07
+2020-01-02 08:00       730.60
+2020-01-02 09:00      1023.29
+2020-01-02 10:00      1168.21
+2020-01-02 11:00      1206.95
+2020-01-02 12:00      1156.63
+2020-01-02 13:00       954.91
+2020-01-02 14:00       558.39
+2020-01-02 15:00        69.93
+2020-01-02 22:00        76.88
+2020-01-02 23:00       244.12
+2020-01-03 01:00       112.39
+2020-01-03 02:00       123.55
+2020-01-03 03:00        97.45
+2020-01-03 08:00       373.80
+2020-01-03 09:00       640.19
+2020-01-03 10:00       777.21
+2020-01-03 11:00       819.35
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46338.91
+Variable costs:      8340.21
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          398.38
+
+Simulating time_step  2020-01-01 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        54759.60
+Variable costs:     23997.98
+
+Number on/offs:                  7
+Sum on/off ramps:            56.00
+Sum nominal ramps:          727.08
+
+Simulating time_step  2020-01-01 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        50772.80
+Variable costs:     25396.18
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          444.51
+
+Simulating time_step  2020-01-01 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46338.91
+Variable costs:     23961.29
+
+Number on/offs:                  4
+Sum on/off ramps:             0.00
+Sum nominal ramps:          297.35
+
+Simulating time_step  2020-01-01 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46338.91
+Variable costs:     17823.83
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          269.88
+
+Simulating time_step  2020-01-01 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46338.91
+Variable costs:     10169.59
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          361.99
+
+Simulating time_step  2020-01-01 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31527.79
+Variable costs:     21356.89
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          559.76
+
+Simulating time_step  2020-01-01 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31527.79
+Variable costs:     14660.34
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          298.90
+
+Simulating time_step  2020-01-02 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     12864.20
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           84.16
+
+Simulating time_step  2020-01-02 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     17272.45
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          204.29
+
+Simulating time_step  2020-01-02 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     17529.60
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           11.47
+
+Simulating time_step  2020-01-02 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     18726.84
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           53.19
+
+Simulating time_step  2020-01-02 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     16671.50
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           91.98
+
+Simulating time_step  2020-01-02 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:     10446.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          292.57
+
+Simulating time_step  2020-01-02 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29374.11
+Variable costs:     14841.47
+
+Number on/offs:                  2
+Sum on/off ramps:            16.00
+Sum nominal ramps:          208.18
+
+Simulating time_step  2020-01-02 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:     17625.64
+
+Reserve shortfall reported at t= 1:        82.89
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          127.24
+
+Simulating time_step  2020-01-02 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1423.13
+
+Renewables curtailment reported at t=1 - total=       43.64
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          807.69
+
+Simulating time_step  2020-01-02 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1518.31
+
+Renewables curtailment reported at t=1 - total=      556.31
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-02 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      931.13
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           16.00
+
+Simulating time_step  2020-01-02 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=     1041.02
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-02 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1290.06
+
+Renewables curtailment reported at t=1 - total=     1019.82
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-02 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1308.93
+
+Renewables curtailment reported at t=1 - total=      807.92
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-02 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1308.93
+
+Renewables curtailment reported at t=1 - total=      721.59
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-02 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26152.91
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      636.98
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-02 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-03 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         2.99
+
+Pyomo model solve time: 66.43949842453003
+
+Deterministic RUC Cost: 1487731.17
+
+Fixed costs:      1226691.66
+Variable costs:    261039.50
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-03 00:00        87.87
+2020-01-03 01:00       367.03
+2020-01-03 02:00       571.99
+2020-01-03 03:00       547.01
+2020-01-03 04:00       309.31
+2020-01-03 05:00       186.06
+2020-01-03 06:00       321.52
+2020-01-03 07:00       749.23
+2020-01-03 08:00      1036.59
+2020-01-03 09:00      1134.02
+2020-01-03 10:00      1092.76
+2020-01-03 11:00      1231.30
+2020-01-03 12:00       982.96
+2020-01-03 13:00       954.86
+2020-01-03 14:00       535.00
+2020-01-03 15:00        57.20
+2020-01-03 16:00        77.70
+2020-01-03 22:00       126.65
+2020-01-04 09:00        93.52
+2020-01-04 10:00       116.36
+2020-01-04 11:00        93.40
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        91573.19
+Variable costs:      1195.76
+
+Renewables curtailment reported at t=1 - total=      401.92
+
+Number on/offs:                  2
+Sum on/off ramps:           340.00
+Sum nominal ramps:            6.00
+
+Simulating time_step  2020-01-02 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        41329.73
+Variable costs:     12632.26
+
+Renewables curtailment reported at t=1 - total=      368.85
+
+Number on/offs:                  5
+Sum on/off ramps:            40.00
+Sum nominal ramps:          588.51
+
+Simulating time_step  2020-01-02 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        39913.72
+Variable costs:     15406.08
+
+Renewables curtailment reported at t=1 - total=      421.40
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          187.69
+
+Simulating time_step  2020-01-02 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35479.83
+Variable costs:     11783.16
+
+Renewables curtailment reported at t=1 - total=      318.48
+
+Number on/offs:                  4
+Sum on/off ramps:             0.00
+Sum nominal ramps:          169.06
+
+Simulating time_step  2020-01-02 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35479.83
+Variable costs:      9376.65
+
+Renewables curtailment reported at t=1 - total=      182.32
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          116.04
+
+Simulating time_step  2020-01-02 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30161.88
+Variable costs:      6945.56
+
+Renewables curtailment reported at t=1 - total=      195.51
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:           21.43
+
+Simulating time_step  2020-01-02 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30161.88
+Variable costs:      1137.30
+
+Renewables curtailment reported at t=1 - total=      115.41
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          307.46
+
+Simulating time_step  2020-01-02 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30161.88
+Variable costs:      1101.45
+
+Renewables curtailment reported at t=1 - total=      189.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           24.56
+
+Simulating time_step  2020-01-03 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      2018.14
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:           58.92
+
+Simulating time_step  2020-01-03 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:       820.26
+
+Renewables curtailment reported at t=1 - total=      409.67
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           71.92
+
+Simulating time_step  2020-01-03 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1086.62
+
+Renewables curtailment reported at t=1 - total=      171.58
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           17.07
+
+Simulating time_step  2020-01-03 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1986.36
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           63.09
+
+Simulating time_step  2020-01-03 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      8798.21
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          350.79
+
+Simulating time_step  2020-01-03 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      3115.37
+
+Renewables curtailment reported at t=1 - total=      142.72
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          290.44
+
+Simulating time_step  2020-01-03 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:     10106.55
+
+Renewables curtailment reported at t=1 - total=      215.65
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          352.92
+
+Simulating time_step  2020-01-03 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      8770.04
+
+Renewables curtailment reported at t=1 - total=      311.82
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           64.50
+
+Simulating time_step  2020-01-03 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1158.04
+
+Renewables curtailment reported at t=1 - total=      551.38
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          398.93
+
+Simulating time_step  2020-01-03 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1158.04
+
+Renewables curtailment reported at t=1 - total=      974.52
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-03 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      987.26
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-03 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      926.47
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-03 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      855.18
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-03 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      845.70
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-03 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      741.94
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-03 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        54124.65
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      569.68
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-03 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-04 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.00
+
+Pyomo model solve time: 84.74841523170471
+
+Deterministic RUC Cost: 1283131.66
+
+Fixed costs:      1010796.09
+Variable costs:    272335.58
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-04 09:00         0.46
+2020-01-04 10:00        95.94
+2020-01-04 11:00       356.14
+2020-01-04 12:00       651.24
+2020-01-04 13:00       888.41
+2020-01-04 14:00      1157.46
+2020-01-04 15:00       475.82
+2020-01-04 19:00        78.58
+2020-01-04 20:00       303.06
+2020-01-04 21:00       316.37
+2020-01-04 22:00       338.87
+2020-01-04 23:00       350.56
+2020-01-05 00:00       345.49
+2020-01-05 01:00       387.75
+2020-01-05 02:00       376.50
+2020-01-05 03:00       395.64
+2020-01-05 04:00       348.41
+2020-01-05 05:00       340.54
+2020-01-05 06:00       352.81
+2020-01-05 07:00       513.91
+2020-01-05 08:00       953.89
+2020-01-05 09:00      1197.36
+2020-01-05 10:00      1295.94
+2020-01-05 11:00      1413.44
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       174617.61
+Variable costs:      1188.63
+
+Renewables curtailment reported at t=1 - total=      828.69
+
+Number on/offs:                  5
+Sum on/off ramps:           742.00
+Sum nominal ramps:           44.40
+
+Simulating time_step  2020-01-03 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        74433.58
+Variable costs:      2425.75
+
+Number on/offs:                 14
+Sum on/off ramps:           140.00
+Sum nominal ramps:           85.91
+
+Simulating time_step  2020-01-03 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        54068.08
+Variable costs:      6324.35
+
+Number on/offs:                  7
+Sum on/off ramps:             0.00
+Sum nominal ramps:          207.81
+
+Simulating time_step  2020-01-03 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        48476.92
+Variable costs:      9500.07
+
+Number on/offs:                  5
+Sum on/off ramps:             0.00
+Sum nominal ramps:          159.88
+
+Simulating time_step  2020-01-03 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46708.08
+Variable costs:     15463.10
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          281.05
+
+Simulating time_step  2020-01-03 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46708.08
+Variable costs:     18231.52
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          122.63
+
+Simulating time_step  2020-01-03 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46708.08
+Variable costs:     19928.04
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           74.32
+
+Simulating time_step  2020-01-03 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        41465.08
+Variable costs:     19885.89
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           40.25
+
+Simulating time_step  2020-01-04 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     21616.43
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           74.90
+
+Simulating time_step  2020-01-04 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     20422.74
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           51.63
+
+Simulating time_step  2020-01-04 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     20131.48
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           12.63
+
+Simulating time_step  2020-01-04 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     18713.40
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           61.52
+
+Simulating time_step  2020-01-04 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     18445.71
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           11.65
+
+Simulating time_step  2020-01-04 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     20482.12
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           88.37
+
+Simulating time_step  2020-01-04 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40580.66
+Variable costs:     23112.04
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          113.56
+
+Simulating time_step  2020-01-04 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35808.16
+Variable costs:     26570.36
+
+Reserve shortfall reported at t= 1:        36.30
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          184.25
+
+Simulating time_step  2020-01-04 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:     12749.41
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          531.87
+
+Simulating time_step  2020-01-04 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      6016.28
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          327.23
+
+Simulating time_step  2020-01-04 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1139.18
+
+Renewables curtailment reported at t=1 - total=      419.04
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          263.95
+
+Simulating time_step  2020-01-04 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=     1005.51
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            6.00
+
+Simulating time_step  2020-01-04 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=     1578.84
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-04 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=     1697.91
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-04 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1195.76
+
+Renewables curtailment reported at t=1 - total=     1831.54
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-04 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31012.54
+Variable costs:      1214.62
+
+Renewables curtailment reported at t=1 - total=     1330.81
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-04 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-05 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.08
+
+Pyomo model solve time: 120.54990363121033
+
+Deterministic RUC Cost: 1317634.38
+
+Fixed costs:      1082261.72
+Variable costs:    235372.66
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-05 00:00       340.96
+2020-01-05 01:00       370.90
+2020-01-05 02:00       342.76
+2020-01-05 03:00       365.95
+2020-01-05 04:00       340.74
+2020-01-05 05:00       331.15
+2020-01-05 06:00       321.81
+2020-01-05 07:00      1030.80
+2020-01-05 08:00      1386.68
+2020-01-05 09:00      1762.77
+2020-01-05 10:00      1726.99
+2020-01-05 11:00      1340.58
+2020-01-05 12:00      1295.11
+2020-01-05 13:00       942.79
+2020-01-05 14:00       767.41
+2020-01-05 15:00       299.37
+2020-01-05 22:00        53.20
+2020-01-05 23:00       168.45
+2020-01-06 08:00       284.28
+2020-01-06 09:00       544.07
+2020-01-06 10:00       723.49
+2020-01-06 11:00       821.28
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        73172.32
+Variable costs:      1139.18
+
+Renewables curtailment reported at t=1 - total=     1000.08
+
+Number on/offs:                  4
+Sum on/off ramps:           208.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-04 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46696.08
+Variable costs:      3648.06
+
+Renewables curtailment reported at t=1 - total=      125.25
+
+Number on/offs:                  6
+Sum on/off ramps:            48.00
+Sum nominal ramps:          174.65
+
+Simulating time_step  2020-01-04 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35404.88
+Variable costs:     13901.64
+
+Renewables curtailment reported at t=1 - total=       87.24
+
+Number on/offs:                  9
+Sum on/off ramps:             0.00
+Sum nominal ramps:          494.17
+
+Simulating time_step  2020-01-04 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26077.96
+Variable costs:     17198.17
+
+Reserve shortfall reported at t= 1:       105.39
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      121.37
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          426.67
+
+Simulating time_step  2020-01-04 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25326.69
+Variable costs:      6458.52
+
+Renewables curtailment reported at t=1 - total=      291.10
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          450.84
+
+Simulating time_step  2020-01-04 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21252.11
+Variable costs:      3793.69
+
+Renewables curtailment reported at t=1 - total=      304.70
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          204.33
+
+Simulating time_step  2020-01-04 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21252.11
+Variable costs:      6170.18
+
+Renewables curtailment reported at t=1 - total=      312.07
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          135.72
+
+Simulating time_step  2020-01-04 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21252.11
+Variable costs:      5797.20
+
+Renewables curtailment reported at t=1 - total=      300.66
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           89.40
+
+Simulating time_step  2020-01-05 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:      8132.71
+
+Reserve shortfall reported at t= 1:        98.63
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      351.37
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          420.69
+
+Simulating time_step  2020-01-05 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:      5539.14
+
+Renewables curtailment reported at t=1 - total=      345.97
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          268.60
+
+Simulating time_step  2020-01-05 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:      4746.70
+
+Renewables curtailment reported at t=1 - total=      340.01
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           39.68
+
+Simulating time_step  2020-01-05 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:      4381.47
+
+Renewables curtailment reported at t=1 - total=      331.49
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           18.09
+
+Simulating time_step  2020-01-05 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:      1304.70
+
+Renewables curtailment reported at t=1 - total=      322.30
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          164.32
+
+Simulating time_step  2020-01-05 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16009.10
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      387.72
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           36.56
+
+Simulating time_step  2020-01-05 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23904.39
+Variable costs:       745.97
+
+Renewables curtailment reported at t=1 - total=      340.05
+
+Number on/offs:                  1
+Sum on/off ramps:            30.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-05 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       875.98
+
+Renewables curtailment reported at t=1 - total=      296.58
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-05 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       894.56
+
+Renewables curtailment reported at t=1 - total=     1264.22
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-05 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       857.41
+
+Renewables curtailment reported at t=1 - total=     1650.21
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-05 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       931.71
+
+Renewables curtailment reported at t=1 - total=     1725.93
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-05 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       950.74
+
+Renewables curtailment reported at t=1 - total=     1774.89
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-05 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       950.74
+
+Renewables curtailment reported at t=1 - total=     1836.96
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-05 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       950.74
+
+Renewables curtailment reported at t=1 - total=     1933.73
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-05 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16760.37
+Variable costs:       950.74
+
+Renewables curtailment reported at t=1 - total=     1808.15
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-05 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        82869.23
+Variable costs:       894.56
+
+Renewables curtailment reported at t=1 - total=     1927.31
+
+Number on/offs:                  2
+Sum on/off ramps:           340.00
+Sum nominal ramps:            5.00
+
+Simulating time_step  2020-01-05 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-06 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         2.98
+
+Pyomo model solve time: 75.77972292900085
+
+Deterministic RUC Cost: 1018724.43
+
+Fixed costs:       870331.58
+Variable costs:    148392.88
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-06 00:00       282.01
+2020-01-06 01:00       344.47
+2020-01-06 02:00       378.72
+2020-01-06 03:00       542.14
+2020-01-06 04:00       356.32
+2020-01-06 05:00       291.15
+2020-01-06 06:00       324.32
+2020-01-06 07:00       787.78
+2020-01-06 08:00      1410.62
+2020-01-06 09:00      1833.67
+2020-01-06 10:00      1912.62
+2020-01-06 11:00      1842.99
+2020-01-06 12:00      1761.55
+2020-01-06 13:00      1571.76
+2020-01-06 14:00      1213.33
+2020-01-06 15:00       836.67
+2020-01-06 16:00        90.23
+2020-01-06 17:00        16.16
+2020-01-06 18:00        11.19
+2020-01-06 20:00        28.18
+2020-01-06 21:00        39.41
+2020-01-07 00:00       189.81
+2020-01-07 01:00       214.17
+2020-01-07 02:00       214.12
+2020-01-07 03:00       144.44
+2020-01-07 07:00        64.98
+2020-01-07 08:00       493.02
+2020-01-07 09:00       840.97
+2020-01-07 10:00       995.22
+2020-01-07 11:00       984.99
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       150329.52
+Variable costs:       836.57
+
+Renewables curtailment reported at t=1 - total=     1873.87
+
+Number on/offs:                  4
+Sum on/off ramps:           650.00
+Sum nominal ramps:           43.40
+
+Simulating time_step  2020-01-05 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        78543.04
+Variable costs:       762.72
+
+Renewables curtailment reported at t=1 - total=      943.61
+
+Number on/offs:                  2
+Sum on/off ramps:           178.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-05 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        49358.86
+Variable costs:       836.57
+
+Renewables curtailment reported at t=1 - total=      532.96
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-05 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        49358.86
+Variable costs:       855.04
+
+Renewables curtailment reported at t=1 - total=      554.70
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-05 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        49358.86
+Variable costs:       910.43
+
+Renewables curtailment reported at t=1 - total=      535.89
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-05 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        47858.66
+Variable costs:       910.43
+
+Renewables curtailment reported at t=1 - total=      663.93
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-05 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        47858.66
+Variable costs:       836.57
+
+Renewables curtailment reported at t=1 - total=      942.19
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-05 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37843.16
+Variable costs:       931.71
+
+Renewables curtailment reported at t=1 - total=      732.31
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:           22.70
+
+Simulating time_step  2020-01-06 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      4891.62
+
+Renewables curtailment reported at t=1 - total=      145.29
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          216.54
+
+Simulating time_step  2020-01-06 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1409.76
+
+Renewables curtailment reported at t=1 - total=      105.94
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          185.79
+
+Simulating time_step  2020-01-06 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:       988.81
+
+Renewables curtailment reported at t=1 - total=      300.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           31.75
+
+Simulating time_step  2020-01-06 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1447.84
+
+Renewables curtailment reported at t=1 - total=      268.91
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           34.42
+
+Simulating time_step  2020-01-06 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      3445.02
+
+Renewables curtailment reported at t=1 - total=      174.02
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          108.26
+
+Simulating time_step  2020-01-06 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:     11925.64
+
+Renewables curtailment reported at t=1 - total=      170.51
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          413.81
+
+Simulating time_step  2020-01-06 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31713.02
+Variable costs:     21581.16
+
+Reserve shortfall reported at t= 1:       313.57
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      293.83
+
+Number on/offs:                  7
+Sum on/off ramps:            56.00
+Sum nominal ramps:          397.68
+
+Simulating time_step  2020-01-06 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:     15239.94
+
+Reserve shortfall reported at t= 1:       143.95
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      253.76
+
+Number on/offs:                  7
+Sum on/off ramps:             0.00
+Sum nominal ramps:          287.44
+
+Simulating time_step  2020-01-06 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1007.84
+
+Renewables curtailment reported at t=1 - total=      908.84
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          631.64
+
+Simulating time_step  2020-01-06 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:       931.71
+
+Renewables curtailment reported at t=1 - total=     1541.99
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-06 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:       950.74
+
+Renewables curtailment reported at t=1 - total=     1779.64
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-06 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1026.88
+
+Renewables curtailment reported at t=1 - total=     1751.88
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-06 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1160.12
+
+Renewables curtailment reported at t=1 - total=     1597.45
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-06 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1236.26
+
+Renewables curtailment reported at t=1 - total=     1437.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            6.00
+
+Simulating time_step  2020-01-06 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23394.17
+Variable costs:      1255.30
+
+Renewables curtailment reported at t=1 - total=     1233.45
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-06 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        56683.86
+Variable costs:      1236.26
+
+Renewables curtailment reported at t=1 - total=     1102.91
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-06 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-07 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         2.80
+
+Pyomo model solve time: 92.10165286064148
+
+Deterministic RUC Cost: 950605.42
+
+Fixed costs:       815385.31
+Variable costs:    135220.12
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-07 00:00       142.44
+2020-01-07 01:00       385.36
+2020-01-07 02:00       436.79
+2020-01-07 03:00       405.21
+2020-01-07 04:00       386.51
+2020-01-07 05:00       348.64
+2020-01-07 06:00       353.05
+2020-01-07 07:00       820.01
+2020-01-07 08:00      1406.97
+2020-01-07 09:00      1664.52
+2020-01-07 10:00      1856.66
+2020-01-07 11:00      1787.10
+2020-01-07 12:00      1771.88
+2020-01-07 13:00      1704.40
+2020-01-07 14:00      1473.50
+2020-01-07 15:00      1121.28
+2020-01-07 16:00       269.42
+2020-01-07 17:00       202.29
+2020-01-07 18:00       265.71
+2020-01-07 19:00       267.34
+2020-01-07 20:00       300.36
+2020-01-07 21:00       314.44
+2020-01-07 22:00       302.57
+2020-01-07 23:00       216.66
+2020-01-08 00:00       334.64
+2020-01-08 01:00       425.06
+2020-01-08 02:00       425.09
+2020-01-08 03:00       390.21
+2020-01-08 04:00       231.61
+2020-01-08 05:00       217.28
+2020-01-08 06:00       228.43
+2020-01-08 07:00       230.12
+2020-01-08 08:00       679.07
+2020-01-08 09:00       949.72
+2020-01-08 10:00      1199.86
+2020-01-08 11:00      1151.10
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        45860.17
+Variable costs:      1170.05
+
+Renewables curtailment reported at t=1 - total=      485.42
+
+Number on/offs:                  1
+Sum on/off ramps:            62.00
+Sum nominal ramps:           43.40
+
+Simulating time_step  2020-01-06 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31346.39
+Variable costs:     18641.23
+
+Reserve shortfall reported at t= 1:        43.71
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=       91.29
+
+Number on/offs:                  1
+Sum on/off ramps:             8.00
+Sum nominal ramps:          787.22
+
+Simulating time_step  2020-01-06 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        33595.31
+Variable costs:     22177.73
+
+Reserve shortfall reported at t= 1:       167.20
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=        1.04
+
+Number on/offs:                  4
+Sum on/off ramps:            24.00
+Sum nominal ramps:          111.90
+
+Simulating time_step  2020-01-06 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31346.39
+Variable costs:     15796.91
+
+Reserve shortfall reported at t= 1:        32.35
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  4
+Sum on/off ramps:             8.00
+Sum nominal ramps:          798.49
+
+Simulating time_step  2020-01-06 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29402.27
+Variable costs:     11178.76
+
+Renewables curtailment reported at t=1 - total=      106.20
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          176.81
+
+Simulating time_step  2020-01-06 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24851.15
+Variable costs:      6917.61
+
+Renewables curtailment reported at t=1 - total=      242.78
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          207.20
+
+Simulating time_step  2020-01-06 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21268.28
+Variable costs:      3291.83
+
+Renewables curtailment reported at t=1 - total=      285.18
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          121.07
+
+Simulating time_step  2020-01-06 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16025.27
+Variable costs:      2003.65
+
+Renewables curtailment reported at t=1 - total=      286.07
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          119.00
+
+Simulating time_step  2020-01-07 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16025.27
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      438.61
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           75.53
+
+Simulating time_step  2020-01-07 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16025.27
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      408.05
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16025.27
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      475.86
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        16025.27
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      459.70
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40730.33
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      516.03
+
+Number on/offs:                  1
+Sum on/off ramps:           140.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        27227.71
+Variable costs:       856.06
+
+Renewables curtailment reported at t=1 - total=      335.03
+
+Number on/offs:                  1
+Sum on/off ramps:            30.00
+Sum nominal ramps:            8.94
+
+Simulating time_step  2020-01-07 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28609.63
+Variable costs:      7210.77
+
+Renewables curtailment reported at t=1 - total=      346.54
+
+Number on/offs:                  7
+Sum on/off ramps:            56.00
+Sum nominal ramps:          337.55
+
+Simulating time_step  2020-01-07 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:      7873.73
+
+Renewables curtailment reported at t=1 - total=      279.87
+
+Number on/offs:                  7
+Sum on/off ramps:             0.00
+Sum nominal ramps:           32.92
+
+Simulating time_step  2020-01-07 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:      1044.87
+
+Renewables curtailment reported at t=1 - total=      658.64
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          361.41
+
+Simulating time_step  2020-01-07 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=     1336.20
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            5.00
+
+Simulating time_step  2020-01-07 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=     1641.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=     1744.21
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=     1718.34
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       969.43
+
+Renewables curtailment reported at t=1 - total=     1774.08
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-07 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20083.69
+Variable costs:       969.43
+
+Renewables curtailment reported at t=1 - total=     1673.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-07 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        53373.38
+Variable costs:       988.29
+
+Renewables curtailment reported at t=1 - total=     1512.36
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-07 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-08 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.13
+
+Pyomo model solve time: 116.4154462814331
+
+Deterministic RUC Cost: 1261037.61
+
+Fixed costs:      1067820.13
+Variable costs:    193217.49
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-08 00:00       115.41
+2020-01-08 01:00       412.20
+2020-01-08 02:00       395.00
+2020-01-08 03:00       191.24
+2020-01-08 05:00        79.38
+2020-01-08 06:00       169.31
+2020-01-08 07:00       482.01
+2020-01-08 08:00      1242.07
+2020-01-08 09:00      1718.90
+2020-01-08 10:00      1981.01
+2020-01-08 11:00      2144.34
+2020-01-08 12:00      2215.41
+2020-01-08 13:00      2079.70
+2020-01-08 14:00      1795.27
+2020-01-08 15:00      1293.84
+2020-01-08 16:00       289.45
+2020-01-08 17:00       299.12
+2020-01-08 18:00       286.09
+2020-01-08 19:00       244.95
+2020-01-08 20:00       243.10
+2020-01-08 21:00       259.85
+2020-01-08 22:00       244.75
+2020-01-08 23:00       218.01
+2020-01-09 00:00       408.91
+2020-01-09 01:00       438.00
+2020-01-09 02:00       408.40
+2020-01-09 03:00       391.86
+2020-01-09 04:00       235.43
+2020-01-09 05:00       214.46
+2020-01-09 06:00       219.96
+2020-01-09 07:00       240.32
+2020-01-09 08:00       472.97
+2020-01-09 09:00       853.20
+2020-01-09 10:00      1078.71
+2020-01-09 11:00      1198.04
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25326.69
+Variable costs:       984.31
+
+Renewables curtailment reported at t=1 - total=      699.96
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           38.40
+
+Simulating time_step  2020-01-07 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        38941.06
+Variable costs:     13331.79
+
+Renewables curtailment reported at t=1 - total=      211.76
+
+Number on/offs:                  2
+Sum on/off ramps:            44.00
+Sum nominal ramps:          606.82
+
+Simulating time_step  2020-01-07 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29885.60
+Variable costs:     17330.60
+
+Reserve shortfall reported at t= 1:        87.93
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      190.95
+
+Number on/offs:                  2
+Sum on/off ramps:            16.00
+Sum nominal ramps:          484.36
+
+Simulating time_step  2020-01-07 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29782.10
+Variable costs:     17218.12
+
+Reserve shortfall reported at t= 1:        13.08
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      180.02
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           99.40
+
+Simulating time_step  2020-01-07 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        27610.59
+Variable costs:     23394.45
+
+Reserve shortfall reported at t= 1:       399.63
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      200.54
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          394.04
+
+Simulating time_step  2020-01-07 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24575.42
+Variable costs:      8465.82
+
+Renewables curtailment reported at t=1 - total=      280.61
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          485.78
+
+Simulating time_step  2020-01-07 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24575.42
+Variable costs:      3160.67
+
+Renewables curtailment reported at t=1 - total=      236.17
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          275.14
+
+Simulating time_step  2020-01-07 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19332.42
+Variable costs:      1697.27
+
+Renewables curtailment reported at t=1 - total=       70.57
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           38.81
+
+Simulating time_step  2020-01-08 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        52256.67
+Variable costs:       913.13
+
+Renewables curtailment reported at t=1 - total=      241.73
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:           51.60
+
+Simulating time_step  2020-01-08 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24209.99
+Variable costs:      1044.87
+
+Renewables curtailment reported at t=1 - total=      120.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-08 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24209.99
+Variable costs:       801.69
+
+Renewables curtailment reported at t=1 - total=      502.91
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           13.00
+
+Simulating time_step  2020-01-08 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24209.99
+Variable costs:       783.12
+
+Renewables curtailment reported at t=1 - total=      488.60
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-08 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        72148.42
+Variable costs:       820.26
+
+Renewables curtailment reported at t=1 - total=      587.89
+
+Number on/offs:                  3
+Sum on/off ramps:           222.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-08 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        77831.10
+Variable costs:       725.79
+
+Renewables curtailment reported at t=1 - total=      721.79
+
+Number on/offs:                  3
+Sum on/off ramps:           214.00
+Sum nominal ramps:           45.40
+
+Simulating time_step  2020-01-08 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        53080.14
+Variable costs:       801.91
+
+Renewables curtailment reported at t=1 - total=      449.41
+
+Number on/offs:                 12
+Sum on/off ramps:            96.00
+Sum nominal ramps:           31.24
+
+Simulating time_step  2020-01-08 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35746.21
+Variable costs:      3891.10
+
+Renewables curtailment reported at t=1 - total=      356.01
+
+Number on/offs:                 15
+Sum on/off ramps:             0.00
+Sum nominal ramps:          218.94
+
+Simulating time_step  2020-01-08 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:      1097.23
+
+Renewables curtailment reported at t=1 - total=      778.51
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          237.58
+
+Simulating time_step  2020-01-08 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       892.55
+
+Renewables curtailment reported at t=1 - total=     1352.23
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           11.00
+
+Simulating time_step  2020-01-08 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       892.55
+
+Renewables curtailment reported at t=1 - total=     1852.60
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-08 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       873.97
+
+Renewables curtailment reported at t=1 - total=     2027.22
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-08 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       873.97
+
+Renewables curtailment reported at t=1 - total=     2113.46
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-08 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       911.12
+
+Renewables curtailment reported at t=1 - total=     2143.89
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-08 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:       911.12
+
+Renewables curtailment reported at t=1 - total=     1929.10
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-08 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:      1210.40
+
+Renewables curtailment reported at t=1 - total=     1424.07
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           16.00
+
+Simulating time_step  2020-01-08 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-09 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.07
+
+Pyomo model solve time: 395.1555697917938
+
+Deterministic RUC Cost: 1422278.00
+
+Fixed costs:      1198813.58
+Variable costs:    223464.43
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-09 00:00       300.09
+2020-01-09 01:00       390.40
+2020-01-09 02:00       440.27
+2020-01-09 03:00       375.10
+2020-01-09 04:00       179.16
+2020-01-09 05:00       104.48
+2020-01-09 06:00         9.07
+2020-01-09 07:00       332.59
+2020-01-09 08:00       772.86
+2020-01-09 09:00      1022.43
+2020-01-09 10:00       726.35
+2020-01-09 11:00       366.98
+2020-01-09 12:00        82.21
+2020-01-09 13:00        41.32
+2020-01-09 23:00        22.44
+2020-01-10 01:00       134.50
+2020-01-10 02:00       109.97
+2020-01-10 03:00        49.00
+2020-01-10 07:00       235.09
+2020-01-10 08:00       120.26
+2020-01-10 09:00       460.83
+2020-01-10 10:00       729.15
+2020-01-10 11:00       822.78
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28584.74
+Variable costs:      1229.26
+
+Renewables curtailment reported at t=1 - total=      588.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-08 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35391.93
+Variable costs:      7085.45
+
+Renewables curtailment reported at t=1 - total=      284.46
+
+Number on/offs:                  1
+Sum on/off ramps:            22.00
+Sum nominal ramps:          322.58
+
+Simulating time_step  2020-01-08 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34367.57
+Variable costs:     11035.47
+
+Renewables curtailment reported at t=1 - total=      267.32
+
+Number on/offs:                  4
+Sum on/off ramps:            32.00
+Sum nominal ramps:          185.63
+
+Simulating time_step  2020-01-08 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29726.69
+Variable costs:     10704.89
+
+Renewables curtailment reported at t=1 - total=      163.47
+
+Number on/offs:                  4
+Sum on/off ramps:             0.00
+Sum nominal ramps:           15.58
+
+Simulating time_step  2020-01-08 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29726.69
+Variable costs:      9225.33
+
+Renewables curtailment reported at t=1 - total=      270.35
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           67.05
+
+Simulating time_step  2020-01-08 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24849.13
+Variable costs:      7678.86
+
+Renewables curtailment reported at t=1 - total=      199.38
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           79.37
+
+Simulating time_step  2020-01-08 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:      6377.90
+
+Renewables curtailment reported at t=1 - total=      151.90
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           16.29
+
+Simulating time_step  2020-01-08 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       976.50
+
+Renewables curtailment reported at t=1 - total=      109.85
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          282.82
+
+Simulating time_step  2020-01-09 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       803.65
+
+Renewables curtailment reported at t=1 - total=      190.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           19.32
+
+Simulating time_step  2020-01-09 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       784.79
+
+Renewables curtailment reported at t=1 - total=      311.68
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-09 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       784.79
+
+Renewables curtailment reported at t=1 - total=      383.43
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-09 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       747.07
+
+Renewables curtailment reported at t=1 - total=      435.29
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-09 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        19606.12
+Variable costs:       803.65
+
+Renewables curtailment reported at t=1 - total=      262.83
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-09 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        44570.74
+Variable costs:       916.82
+
+Renewables curtailment reported at t=1 - total=       22.47
+
+Number on/offs:                  1
+Sum on/off ramps:           140.00
+Sum nominal ramps:            8.00
+
+Simulating time_step  2020-01-09 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        27829.87
+Variable costs:      7325.72
+
+Renewables curtailment reported at t=1 - total=       82.89
+
+Number on/offs:                  4
+Sum on/off ramps:            32.00
+Sum nominal ramps:          341.65
+
+Simulating time_step  2020-01-09 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      8854.74
+
+Renewables curtailment reported at t=1 - total=      181.60
+
+Number on/offs:                  4
+Sum on/off ramps:             0.00
+Sum nominal ramps:           72.76
+
+Simulating time_step  2020-01-09 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      1162.36
+
+Renewables curtailment reported at t=1 - total=      643.91
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          401.41
+
+Simulating time_step  2020-01-09 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      1067.71
+
+Renewables curtailment reported at t=1 - total=      941.27
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            5.00
+
+Simulating time_step  2020-01-09 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      1257.53
+
+Renewables curtailment reported at t=1 - total=      868.54
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           10.00
+
+Simulating time_step  2020-01-09 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      1276.57
+
+Renewables curtailment reported at t=1 - total=      745.53
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-09 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23189.00
+Variable costs:      1276.57
+
+Renewables curtailment reported at t=1 - total=      910.23
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-09 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        56031.30
+Variable costs:      1257.53
+
+Renewables curtailment reported at t=1 - total=      522.58
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-09 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        93731.35
+Variable costs:      1238.50
+
+Renewables curtailment reported at t=1 - total=      678.87
+
+Number on/offs:                  2
+Sum on/off ramps:           340.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-09 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        82364.28
+Variable costs:      1219.46
+
+Renewables curtailment reported at t=1 - total=      457.37
+
+Number on/offs:                  2
+Sum on/off ramps:           200.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-09 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-10 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.11
+
+Pyomo model solve time: 160.1792995929718
+
+Deterministic RUC Cost: 1201208.04
+
+Fixed costs:       992619.48
+Variable costs:    208588.56
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-10 00:00       319.25
+2020-01-10 01:00       394.22
+2020-01-10 02:00       325.21
+2020-01-10 03:00       106.77
+2020-01-10 06:00        96.99
+2020-01-10 07:00       378.69
+2020-01-10 08:00      1001.69
+2020-01-10 09:00      1297.87
+2020-01-10 10:00      1320.57
+2020-01-10 11:00      1290.20
+2020-01-10 12:00      1241.05
+2020-01-10 13:00       991.27
+2020-01-10 14:00       671.73
+2020-01-10 15:00       306.65
+2020-01-10 22:00        73.80
+2020-01-11 00:00        88.85
+2020-01-11 01:00       148.32
+2020-01-11 02:00       147.81
+2020-01-11 03:00        90.87
+2020-01-11 07:00       126.09
+2020-01-11 08:00       142.89
+2020-01-11 09:00       371.37
+2020-01-11 10:00       440.57
+2020-01-11 11:00       534.90
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        75743.38
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      151.31
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:           19.00
+
+Simulating time_step  2020-01-09 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        68872.54
+Variable costs:      9828.74
+
+Number on/offs:                 13
+Sum on/off ramps:           118.00
+Sum nominal ramps:          448.92
+
+Simulating time_step  2020-01-09 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        47439.17
+Variable costs:     14452.55
+
+Number on/offs:                 13
+Sum on/off ramps:             0.00
+Sum nominal ramps:          217.85
+
+Simulating time_step  2020-01-09 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        45187.71
+Variable costs:     12919.92
+
+Renewables curtailment reported at t=1 - total=       71.01
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          114.43
+
+Simulating time_step  2020-01-09 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        45187.71
+Variable costs:      9509.57
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          156.90
+
+Simulating time_step  2020-01-09 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40392.08
+Variable costs:      8856.36
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           31.99
+
+Simulating time_step  2020-01-09 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30738.72
+Variable costs:      5341.12
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          176.89
+
+Simulating time_step  2020-01-09 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      3044.95
+
+Renewables curtailment reported at t=1 - total=       94.84
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          142.51
+
+Simulating time_step  2020-01-10 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      3728.36
+
+Renewables curtailment reported at t=1 - total=      218.08
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           35.91
+
+Simulating time_step  2020-01-10 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      1082.59
+
+Renewables curtailment reported at t=1 - total=      180.39
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          148.80
+
+Simulating time_step  2020-01-10 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      1082.59
+
+Renewables curtailment reported at t=1 - total=       89.99
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-10 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      3344.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          127.36
+
+Simulating time_step  2020-01-10 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      5456.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          110.95
+
+Simulating time_step  2020-01-10 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25966.22
+Variable costs:      6106.73
+
+Renewables curtailment reported at t=1 - total=      126.46
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           32.97
+
+Simulating time_step  2020-01-10 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28312.74
+Variable costs:      9311.79
+
+Renewables curtailment reported at t=1 - total=      228.11
+
+Number on/offs:                  2
+Sum on/off ramps:            16.00
+Sum nominal ramps:          159.65
+
+Simulating time_step  2020-01-10 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:     15199.41
+
+Reserve shortfall reported at t= 1:       251.61
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      238.90
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          260.22
+
+Simulating time_step  2020-01-10 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1195.76
+
+Renewables curtailment reported at t=1 - total=      407.86
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          687.15
+
+Simulating time_step  2020-01-10 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1176.90
+
+Renewables curtailment reported at t=1 - total=      935.18
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-10 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      940.04
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            5.00
+
+Simulating time_step  2020-01-10 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      766.58
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-10 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      714.70
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-10 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1308.93
+
+Renewables curtailment reported at t=1 - total=      603.12
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-10 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        21415.10
+Variable costs:      1290.06
+
+Renewables curtailment reported at t=1 - total=      591.97
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-10 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        54234.28
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      689.92
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-10 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-11 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.10
+
+Pyomo model solve time: 80.15109348297119
+
+Deterministic RUC Cost: 1420511.09
+
+Fixed costs:      1087893.16
+Variable costs:    332617.92
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-11 03:00        80.65
+2020-01-11 13:00       175.69
+2020-01-11 14:00       132.29
+2020-01-11 20:00        56.30
+2020-01-11 21:00       105.74
+2020-01-11 22:00       193.18
+2020-01-11 23:00       125.99
+2020-01-12 00:00       164.34
+2020-01-12 01:00       159.84
+2020-01-12 02:00       156.24
+2020-01-12 03:00       154.64
+2020-01-12 04:00       155.35
+2020-01-12 05:00       160.41
+2020-01-12 06:00       167.28
+2020-01-12 07:00       363.54
+2020-01-12 08:00       308.36
+2020-01-12 09:00       326.19
+2020-01-12 10:00       164.33
+2020-01-12 11:00       155.06
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        76008.39
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      382.51
+
+Number on/offs:                  2
+Sum on/off ramps:           232.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-10 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46865.09
+Variable costs:     16546.89
+
+Renewables curtailment reported at t=1 - total=      139.26
+
+Number on/offs:                 12
+Sum on/off ramps:            96.00
+Sum nominal ramps:          757.20
+
+Simulating time_step  2020-01-10 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37830.07
+Variable costs:     15763.13
+
+Renewables curtailment reported at t=1 - total=      288.59
+
+Number on/offs:                  7
+Sum on/off ramps:             0.00
+Sum nominal ramps:           34.25
+
+Simulating time_step  2020-01-10 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        32238.91
+Variable costs:     15681.49
+
+Renewables curtailment reported at t=1 - total=      328.02
+
+Number on/offs:                  5
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.84
+
+Simulating time_step  2020-01-10 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        32238.91
+Variable costs:     14297.03
+
+Renewables curtailment reported at t=1 - total=      351.05
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           64.78
+
+Simulating time_step  2020-01-10 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        32238.91
+Variable costs:      5277.32
+
+Renewables curtailment reported at t=1 - total=      266.78
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          434.75
+
+Simulating time_step  2020-01-10 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30768.71
+Variable costs:      2927.11
+
+Renewables curtailment reported at t=1 - total=       86.57
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:           94.30
+
+Simulating time_step  2020-01-10 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      5313.81
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          125.68
+
+Simulating time_step  2020-01-11 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      2160.22
+
+Renewables curtailment reported at t=1 - total=      185.71
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          166.45
+
+Simulating time_step  2020-01-11 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      2183.19
+
+Renewables curtailment reported at t=1 - total=      144.77
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.23
+
+Simulating time_step  2020-01-11 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      5299.35
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          164.49
+
+Simulating time_step  2020-01-11 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      1823.73
+
+Renewables curtailment reported at t=1 - total=       85.78
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          184.38
+
+Simulating time_step  2020-01-11 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        25996.22
+Variable costs:      3099.40
+
+Renewables curtailment reported at t=1 - total=      129.24
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           68.56
+
+Simulating time_step  2020-01-11 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        41754.45
+Variable costs:     10950.01
+
+Number on/offs:                  2
+Sum on/off ramps:            60.00
+Sum nominal ramps:          393.86
+
+Simulating time_step  2020-01-11 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        60288.89
+Variable costs:     15261.42
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:          203.11
+
+Simulating time_step  2020-01-11 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        32242.21
+Variable costs:     22379.06
+
+Reserve shortfall reported at t= 1:        30.86
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          309.03
+
+Simulating time_step  2020-01-11 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        65531.90
+Variable costs:      8311.87
+
+Number on/offs:                  1
+Sum on/off ramps:           170.00
+Sum nominal ramps:          636.27
+
+Simulating time_step  2020-01-11 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1319.59
+
+Renewables curtailment reported at t=1 - total=      111.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          407.94
+
+Simulating time_step  2020-01-11 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1659.31
+
+Renewables curtailment reported at t=1 - total=      242.82
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           20.00
+
+Simulating time_step  2020-01-11 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1659.31
+
+Renewables curtailment reported at t=1 - total=       96.48
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-11 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      2119.89
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           36.73
+
+Simulating time_step  2020-01-11 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1470.48
+
+Renewables curtailment reported at t=1 - total=       50.91
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           42.73
+
+Simulating time_step  2020-01-11 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1527.06
+
+Renewables curtailment reported at t=1 - total=      288.86
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-11 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1545.92
+
+Renewables curtailment reported at t=1 - total=       59.83
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-11 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-12 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.08
+
+Pyomo model solve time: 134.27485156059265
+
+Deterministic RUC Cost: 1144537.37
+
+Fixed costs:       924305.03
+Variable costs:    220232.34
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-12 00:00       226.82
+2020-01-12 01:00        58.79
+2020-01-12 02:00       271.92
+2020-01-12 03:00       371.42
+2020-01-12 04:00       252.96
+2020-01-12 05:00       127.18
+2020-01-12 06:00       120.27
+2020-01-12 07:00       831.23
+2020-01-12 08:00      1218.38
+2020-01-12 09:00      1509.17
+2020-01-12 10:00      1508.45
+2020-01-12 11:00      1382.69
+2020-01-12 12:00      1343.24
+2020-01-12 13:00      1099.57
+2020-01-12 14:00       808.43
+2020-01-12 15:00       336.03
+2020-01-12 19:00        92.48
+2020-01-12 20:00        90.52
+2020-01-12 21:00        78.46
+2020-01-12 22:00        36.72
+2020-01-13 07:00        10.73
+2020-01-13 08:00       258.08
+2020-01-13 09:00       536.37
+2020-01-13 10:00       725.95
+2020-01-13 11:00       782.29
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      1678.35
+
+Renewables curtailment reported at t=1 - total=       23.09
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-11 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        48323.94
+Variable costs:     11961.97
+
+Number on/offs:                  9
+Sum on/off ramps:            72.00
+Sum nominal ramps:          541.78
+
+Simulating time_step  2020-01-11 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:     11201.06
+
+Number on/offs:                  9
+Sum on/off ramps:             0.00
+Sum nominal ramps:           36.49
+
+Simulating time_step  2020-01-11 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37485.22
+Variable costs:      5115.97
+
+Renewables curtailment reported at t=1 - total=       20.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          307.68
+
+Simulating time_step  2020-01-11 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28158.30
+Variable costs:      9655.73
+
+Renewables curtailment reported at t=1 - total=      163.38
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          231.42
+
+Simulating time_step  2020-01-11 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        28158.30
+Variable costs:      8278.85
+
+Renewables curtailment reported at t=1 - total=      122.84
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           69.09
+
+Simulating time_step  2020-01-11 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24575.42
+Variable costs:      4573.42
+
+Renewables curtailment reported at t=1 - total=      154.36
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          121.10
+
+Simulating time_step  2020-01-11 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        24575.42
+Variable costs:       836.57
+
+Renewables curtailment reported at t=1 - total=      209.86
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          211.84
+
+Simulating time_step  2020-01-12 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        23075.23
+Variable costs:       910.43
+
+Renewables curtailment reported at t=1 - total=      148.19
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-12 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1631.72
+
+Renewables curtailment reported at t=1 - total=      200.84
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           61.64
+
+Simulating time_step  2020-01-12 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:       764.54
+
+Renewables curtailment reported at t=1 - total=      406.01
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           51.94
+
+Simulating time_step  2020-01-12 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:       820.26
+
+Renewables curtailment reported at t=1 - total=      307.49
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-12 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:       838.84
+
+Renewables curtailment reported at t=1 - total=      289.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-12 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1091.74
+
+Renewables curtailment reported at t=1 - total=      176.31
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           16.35
+
+Simulating time_step  2020-01-12 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      3692.82
+
+Renewables curtailment reported at t=1 - total=      138.06
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          141.56
+
+Simulating time_step  2020-01-12 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      8867.52
+
+Reserve shortfall reported at t= 1:        82.43
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          262.78
+
+Simulating time_step  2020-01-12 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1347.00
+
+Renewables curtailment reported at t=1 - total=      580.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          395.69
+
+Simulating time_step  2020-01-12 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1176.90
+
+Renewables curtailment reported at t=1 - total=     1051.21
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           11.00
+
+Simulating time_step  2020-01-12 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1214.62
+
+Renewables curtailment reported at t=1 - total=     1085.85
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-12 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1214.62
+
+Renewables curtailment reported at t=1 - total=     1059.12
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-12 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1214.62
+
+Renewables curtailment reported at t=1 - total=     1255.47
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-12 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=     1146.38
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-12 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=     1002.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-12 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        17832.23
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      716.57
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-12 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-13 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.10
+
+Pyomo model solve time: 366.8861172199249
+
+Deterministic RUC Cost: 1361177.00
+
+Fixed costs:      1120481.56
+Variable costs:    240695.44
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-13 01:00       156.31
+2020-01-13 02:00        65.06
+2020-01-13 03:00       222.74
+2020-01-13 10:00        89.15
+2020-01-13 11:00        98.54
+2020-01-13 12:00       179.17
+2020-01-13 13:00        89.61
+2020-01-13 14:00       216.00
+2020-01-13 17:00        58.84
+2020-01-13 18:00       139.13
+2020-01-13 19:00       230.98
+2020-01-13 20:00       256.42
+2020-01-13 21:00       286.10
+2020-01-13 22:00       280.74
+2020-01-13 23:00       267.72
+2020-01-14 00:00       467.35
+2020-01-14 01:00       519.01
+2020-01-14 02:00       525.56
+2020-01-14 03:00       481.84
+2020-01-14 04:00       395.24
+2020-01-14 05:00       267.64
+2020-01-14 06:00       269.49
+2020-01-14 07:00       348.44
+2020-01-14 08:00       613.45
+2020-01-14 09:00       764.22
+2020-01-14 10:00       924.55
+2020-01-14 11:00      1031.04
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       133866.95
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      705.42
+
+Number on/offs:                  4
+Sum on/off ramps:           572.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-12 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        47870.21
+Variable costs:     14568.58
+
+Number on/offs:                  7
+Sum on/off ramps:            70.00
+Sum nominal ramps:          680.41
+
+Simulating time_step  2020-01-12 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        41894.49
+Variable costs:     27316.61
+
+Reserve shortfall reported at t= 1:       220.29
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          504.47
+
+Simulating time_step  2020-01-12 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35146.06
+Variable costs:     33901.76
+
+Reserve shortfall reported at t= 1:       416.97
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        21.55
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        32.31
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        28.61
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  6
+Sum on/off ramps:             0.00
+Sum nominal ramps:          207.50
+
+Simulating time_step  2020-01-12 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35146.06
+Variable costs:     33106.91
+
+Reserve shortfall reported at t= 1:       406.60
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        20.81
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        17.84
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        14.26
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           24.45
+
+Simulating time_step  2020-01-12 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:     26247.51
+
+Reserve shortfall reported at t= 1:       250.70
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          200.24
+
+Simulating time_step  2020-01-12 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:     20656.01
+
+Reserve shortfall reported at t= 1:        14.99
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          210.18
+
+Simulating time_step  2020-01-12 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:     16530.51
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          170.10
+
+Simulating time_step  2020-01-13 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:     16642.49
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.84
+
+Simulating time_step  2020-01-13 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:      4376.41
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          583.92
+
+Simulating time_step  2020-01-13 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:      1873.25
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          137.60
+
+Simulating time_step  2020-01-13 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:      1021.46
+
+Renewables curtailment reported at t=1 - total=      233.53
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           54.73
+
+Simulating time_step  2020-01-13 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34004.11
+Variable costs:      1021.46
+
+Renewables curtailment reported at t=1 - total=      219.77
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-13 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        57850.68
+Variable costs:      2835.14
+
+Number on/offs:                  2
+Sum on/off ramps:            60.00
+Sum nominal ramps:          109.74
+
+Simulating time_step  2020-01-13 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        50132.84
+Variable costs:     12748.84
+
+Number on/offs:                 12
+Sum on/off ramps:            96.00
+Sum nominal ramps:          498.19
+
+Simulating time_step  2020-01-13 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        34622.23
+Variable costs:     32282.47
+
+Reserve shortfall reported at t= 1:       387.10
+Quick start generation capacity available at t= 1:         0.00
+
+Reserve shortfall reported at t= 1:        22.45
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                 13
+Sum on/off ramps:             0.00
+Sum nominal ramps:          756.40
+
+Simulating time_step  2020-01-13 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:     20131.51
+
+Reserve shortfall reported at t= 1:       143.83
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  1
+Sum on/off ramps:            65.20
+Sum nominal ramps:          312.74
+
+Simulating time_step  2020-01-13 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:     10996.85
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          463.67
+
+Simulating time_step  2020-01-13 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:      5902.14
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          248.37
+
+Simulating time_step  2020-01-13 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:      3818.05
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          108.66
+
+Simulating time_step  2020-01-13 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:       987.12
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          157.24
+
+Simulating time_step  2020-01-13 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:      1082.59
+
+Renewables curtailment reported at t=1 - total=      171.57
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.25
+
+Simulating time_step  2020-01-13 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:      1195.76
+
+Renewables curtailment reported at t=1 - total=      242.10
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            6.00
+
+Simulating time_step  2020-01-13 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        29379.22
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      281.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-13 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-14 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         2.94
+
+Pyomo model solve time: 59.05812883377075
+
+Deterministic RUC Cost: 1785898.95
+
+Fixed costs:      1459361.94
+Variable costs:    326537.02
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-14 00:00       168.38
+2020-01-14 01:00       326.27
+2020-01-14 02:00       407.64
+2020-01-14 03:00       448.03
+2020-01-14 04:00       359.01
+2020-01-14 05:00       255.72
+2020-01-14 07:00       228.05
+2020-01-14 08:00       766.57
+2020-01-14 09:00      1221.38
+2020-01-14 10:00      1448.87
+2020-01-14 11:00      1457.33
+2020-01-14 12:00      1425.62
+2020-01-14 13:00      1294.21
+2020-01-14 14:00       849.45
+2020-01-14 15:00       285.96
+2020-01-14 23:00        22.99
+2020-01-15 10:00        23.27
+2020-01-15 11:00        81.93
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        69476.09
+Variable costs:      3006.03
+
+Number on/offs:                  2
+Sum on/off ramps:           192.00
+Sum nominal ramps:          100.43
+
+Simulating time_step  2020-01-13 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35764.18
+Variable costs:     26906.73
+
+Reserve shortfall reported at t= 1:       247.26
+Quick start generation capacity available at t= 1:         0.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:         1079.58
+
+Simulating time_step  2020-01-13 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35764.18
+Variable costs:     30910.13
+
+Reserve shortfall reported at t= 1:       338.43
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=       30.24
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          497.66
+
+Simulating time_step  2020-01-13 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        47870.49
+Variable costs:     21183.14
+
+Renewables curtailment reported at t=1 - total=      171.61
+
+Number on/offs:                 10
+Sum on/off ramps:            80.00
+Sum nominal ramps:          578.74
+
+Simulating time_step  2020-01-13 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35764.18
+Variable costs:     16998.39
+
+Renewables curtailment reported at t=1 - total=      261.57
+
+Number on/offs:                 10
+Sum on/off ramps:             0.00
+Sum nominal ramps:          182.98
+
+Simulating time_step  2020-01-13 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        31213.06
+Variable costs:     14687.81
+
+Renewables curtailment reported at t=1 - total=      316.75
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          105.51
+
+Simulating time_step  2020-01-13 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:     17602.58
+
+Reserve shortfall reported at t= 1:       122.89
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=      193.60
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          384.39
+
+Simulating time_step  2020-01-13 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:      4517.84
+
+Renewables curtailment reported at t=1 - total=      323.51
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          545.18
+
+Simulating time_step  2020-01-14 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:      4139.77
+
+Renewables curtailment reported at t=1 - total=      291.79
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           19.91
+
+Simulating time_step  2020-01-14 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:       744.26
+
+Renewables curtailment reported at t=1 - total=      336.83
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          195.98
+
+Simulating time_step  2020-01-14 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:       707.33
+
+Renewables curtailment reported at t=1 - total=      487.13
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-14 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:       707.33
+
+Renewables curtailment reported at t=1 - total=      468.43
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-14 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:       725.79
+
+Renewables curtailment reported at t=1 - total=      426.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-14 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26335.49
+Variable costs:      3562.52
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          204.32
+
+Simulating time_step  2020-01-14 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        46251.40
+Variable costs:     10139.67
+
+Number on/offs:                 12
+Sum on/off ramps:           110.00
+Sum nominal ramps:          352.20
+
+Simulating time_step  2020-01-14 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26077.96
+Variable costs:     14015.55
+
+Reserve shortfall reported at t= 1:        43.73
+Quick start generation capacity available at t= 1:         0.00
+
+Renewables curtailment reported at t=1 - total=       70.02
+
+Number on/offs:                 12
+Sum on/off ramps:             0.00
+Sum nominal ramps:          179.70
+
+Simulating time_step  2020-01-14 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1176.90
+
+Renewables curtailment reported at t=1 - total=      359.42
+
+Number on/offs:                  1
+Sum on/off ramps:           106.60
+Sum nominal ramps:          426.14
+
+Simulating time_step  2020-01-14 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:       969.43
+
+Renewables curtailment reported at t=1 - total=      869.89
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          117.60
+
+Simulating time_step  2020-01-14 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:       950.57
+
+Renewables curtailment reported at t=1 - total=     1223.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-14 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1007.15
+
+Renewables curtailment reported at t=1 - total=     1329.25
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-14 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1044.87
+
+Renewables curtailment reported at t=1 - total=     1344.10
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-14 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1158.04
+
+Renewables curtailment reported at t=1 - total=     1238.59
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            6.00
+
+Simulating time_step  2020-01-14 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=     1007.87
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            4.00
+
+Simulating time_step  2020-01-14 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        20834.96
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=      631.49
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-14 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-15 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.00
+
+Pyomo model solve time: 59.68633413314819
+
+Deterministic RUC Cost: 2491199.72
+
+Fixed costs:      1845969.61
+Variable costs:    645230.11
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-15 00:00        13.92
+2020-01-15 01:00         4.78
+2020-01-15 02:00       450.19
+2020-01-15 03:00       210.08
+2020-01-15 08:00       441.35
+2020-01-15 09:00       455.77
+2020-01-15 10:00       243.57
+2020-01-15 11:00       152.96
+2020-01-15 12:00       147.96
+2020-01-15 13:00       272.92
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       210497.47
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      810.49
+
+Number on/offs:                  6
+Sum on/off ramps:           990.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-14 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       100128.44
+Variable costs:      5678.12
+
+Number on/offs:                 12
+Sum on/off ramps:           272.00
+Sum nominal ramps:          253.99
+
+Simulating time_step  2020-01-14 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        62274.48
+Variable costs:     12044.00
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          317.68
+
+Simulating time_step  2020-01-14 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        54564.63
+Variable costs:     10959.17
+
+Number on/offs:                  7
+Sum on/off ramps:             0.00
+Sum nominal ramps:           52.23
+
+Simulating time_step  2020-01-14 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        52549.02
+Variable costs:     19342.78
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:          386.62
+
+Simulating time_step  2020-01-14 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        52549.02
+Variable costs:     24007.87
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          203.29
+
+Simulating time_step  2020-01-14 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        52549.02
+Variable costs:     23718.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           12.53
+
+Simulating time_step  2020-01-14 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        52549.02
+Variable costs:     15461.74
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          364.92
+
+Simulating time_step  2020-01-15 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37655.96
+Variable costs:     19339.49
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          216.76
+
+Simulating time_step  2020-01-15 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37655.96
+Variable costs:     15811.00
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          156.22
+
+Simulating time_step  2020-01-15 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37655.96
+Variable costs:      6842.76
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          428.82
+
+Simulating time_step  2020-01-15 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37655.96
+Variable costs:      5362.07
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           75.47
+
+Simulating time_step  2020-01-15 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        37655.96
+Variable costs:     14319.66
+
+Renewables curtailment reported at t=1 - total=       73.95
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          433.43
+
+Simulating time_step  2020-01-15 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        74171.60
+Variable costs:      7962.27
+
+Renewables curtailment reported at t=1 - total=      178.40
+
+Number on/offs:                  2
+Sum on/off ramps:            92.00
+Sum nominal ramps:          303.27
+
+Simulating time_step  2020-01-15 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        42535.23
+Variable costs:     16706.87
+
+Renewables curtailment reported at t=1 - total=      220.67
+
+Number on/offs:                  2
+Sum on/off ramps:            16.00
+Sum nominal ramps:          414.54
+
+Simulating time_step  2020-01-15 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:     16470.97
+
+Renewables curtailment reported at t=1 - total=      193.60
+
+Number on/offs:                  2
+Sum on/off ramps:             0.00
+Sum nominal ramps:           10.49
+
+Simulating time_step  2020-01-15 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1423.13
+
+Renewables curtailment reported at t=1 - total=      524.67
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          749.67
+
+Simulating time_step  2020-01-15 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1233.48
+
+Renewables curtailment reported at t=1 - total=     1172.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           10.00
+
+Simulating time_step  2020-01-15 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=     1321.90
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-15 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1290.06
+
+Renewables curtailment reported at t=1 - total=     1047.53
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            2.00
+
+Simulating time_step  2020-01-15 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1537.34
+
+Renewables curtailment reported at t=1 - total=      907.31
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           13.00
+
+Simulating time_step  2020-01-15 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1518.31
+
+Renewables curtailment reported at t=1 - total=      658.80
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-15 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1518.31
+
+Renewables curtailment reported at t=1 - total=      568.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-15 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40214.79
+Variable costs:      1575.41
+
+Renewables curtailment reported at t=1 - total=      180.75
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-15 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-16 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+
+Pyomo model construction time:         3.11
+
+Pyomo model solve time: 75.09250593185425
+
+Deterministic RUC Cost: 1511174.48
+
+Fixed costs:      1163599.94
+Variable costs:    347574.54
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-16 08:00       348.49
+2020-01-16 09:00       661.76
+2020-01-16 10:00       720.63
+2020-01-16 11:00       649.70
+2020-01-16 12:00       594.23
+2020-01-16 13:00       528.96
+2020-01-16 14:00       333.02
+2020-01-16 18:00        60.92
+2020-01-16 19:00       141.83
+2020-01-16 20:00       232.79
+2020-01-16 21:00       264.37
+2020-01-16 22:00       273.88
+2020-01-16 23:00       311.17
+2020-01-17 00:00       328.64
+2020-01-17 01:00       400.30
+2020-01-17 02:00       495.04
+2020-01-17 03:00       479.35
+2020-01-17 04:00       347.18
+2020-01-17 05:00       256.53
+2020-01-17 06:00       263.78
+2020-01-17 07:00       236.33
+2020-01-17 08:00       555.69
+2020-01-17 09:00       884.16
+2020-01-17 10:00      1088.83
+2020-01-17 11:00      1206.80
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:       172172.15
+Variable costs:      1689.62
+
+Renewables curtailment reported at t=1 - total=      416.89
+
+Number on/offs:                  4
+Sum on/off ramps:           680.00
+Sum nominal ramps:            8.00
+
+Simulating time_step  2020-01-15 17:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        59985.43
+Variable costs:      8778.53
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          389.48
+
+Simulating time_step  2020-01-15 18:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        63524.20
+Variable costs:     14975.89
+
+Number on/offs:                  3
+Sum on/off ramps:            24.00
+Sum nominal ramps:          299.68
+
+Simulating time_step  2020-01-15 19:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        59985.43
+Variable costs:     18744.78
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          173.04
+
+Simulating time_step  2020-01-15 20:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        59985.43
+Variable costs:     15463.11
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          150.29
+
+Simulating time_step  2020-01-15 21:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        55189.80
+Variable costs:     13988.14
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:           69.14
+
+Simulating time_step  2020-01-15 22:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        55189.80
+Variable costs:      9070.42
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          238.68
+
+Simulating time_step  2020-01-15 23:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        55189.80
+Variable costs:      1114.33
+
+Renewables curtailment reported at t=1 - total=      154.93
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          429.08
+
+Simulating time_step  2020-01-16 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      1992.41
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:           60.66
+
+Simulating time_step  2020-01-16 01:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      1058.61
+
+Renewables curtailment reported at t=1 - total=      239.18
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           59.66
+
+Simulating time_step  2020-01-16 02:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      1040.04
+
+Renewables curtailment reported at t=1 - total=      396.59
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-16 03:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      1058.61
+
+Renewables curtailment reported at t=1 - total=      251.18
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            3.00
+
+Simulating time_step  2020-01-16 04:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      2289.93
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           77.19
+
+Simulating time_step  2020-01-16 05:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        40662.17
+Variable costs:      4648.52
+
+Renewables curtailment reported at t=1 - total=       71.26
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:          125.57
+
+Simulating time_step  2020-01-16 06:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        43063.44
+Variable costs:      9409.13
+
+Renewables curtailment reported at t=1 - total=      290.93
+
+Number on/offs:                  2
+Sum on/off ramps:            16.00
+Sum nominal ramps:          244.75
+
+Simulating time_step  2020-01-16 07:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        35419.17
+Variable costs:     13339.30
+
+Renewables curtailment reported at t=1 - total=      296.43
+
+Number on/offs:                  3
+Sum on/off ramps:             0.00
+Sum nominal ramps:          236.71
+
+Simulating time_step  2020-01-16 08:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      160.91
+
+Number on/offs:                  1
+Sum on/off ramps:             0.00
+Sum nominal ramps:          614.52
+
+Simulating time_step  2020-01-16 09:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=      749.73
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-16 10:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=      833.52
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-16 11:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1252.34
+
+Renewables curtailment reported at t=1 - total=     1023.61
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-16 12:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1271.20
+
+Renewables curtailment reported at t=1 - total=     1147.73
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            1.00
+
+Simulating time_step  2020-01-16 13:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1461.20
+
+Renewables curtailment reported at t=1 - total=     1216.88
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:           10.00
+
+Simulating time_step  2020-01-16 14:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1461.20
+
+Renewables curtailment reported at t=1 - total=     1102.36
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            0.00
+
+Simulating time_step  2020-01-16 15:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        30868.05
+Variable costs:      1556.38
+
+Renewables curtailment reported at t=1 - total=      733.36
+
+Number on/offs:                  0
+Sum on/off ramps:             0.00
+Sum nominal ramps:            7.00
+
+Simulating time_step  2020-01-16 16:00
+
+Creating and solving SCED to determine UC initial conditions for date: 2020-01-17 hour: 0
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+[LP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.
+[MIP phase] WARNING: Terminating with monitored violations! Result is not transmission feasible.

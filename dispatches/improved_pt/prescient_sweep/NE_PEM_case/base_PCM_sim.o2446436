@@ -1,0 +1,76 @@
+Initializing simulation...
+WARNING: The gurobipy module (an optional Pyomo dependency) failed to import:
+    ModuleNotFoundError: No module named 'gurobipy'
+WARNING: Solver gurobi supports persistence, which improves the performance of Prescient. Consider installing the python bindings for gurobi.
+WARNING: The gurobipy module (an optional Pyomo dependency) failed to import:
+    ModuleNotFoundError: No module named 'gurobipy'
+WARNING: Solver gurobi supports persistence, which improves the performance of Prescient. Consider installing the python bindings for gurobi.
+Did not find reserves.csv; assuming no reserves
+Setting default t0 state in RTS-GMLC parser
+Dates to simulate: 2020-01-01 to 2020-12-31
+RUC activation hours: 0
+Final RUC date: 2020-12-31
+Using current day's forecasts for RUC solves
+Using prescient forecast error model when projecting demand and renewables in SCED
+
+
+Extracting scenario to simulate
+Calculating PTDF Matrix Factorization
+
+Pyomo model construction time:         2.31
+
+Pyomo model solve time: 383.5380518436432
+
+Deterministic RUC Cost: 1519579.32
+
+Fixed costs:      1240124.79
+Variable costs:    279454.54
+
+
+Renewables curtailment summary (time-period, aggregate_quantity):
+2020-01-01 00:00       435.77
+2020-01-01 01:00       655.15
+2020-01-01 02:00       490.23
+2020-01-01 03:00       425.70
+2020-01-01 04:00       233.34
+2020-01-01 08:00       288.63
+2020-01-01 09:00       252.26
+2020-01-01 10:00        65.01
+2020-01-02 01:00        60.65
+2020-01-02 02:00         0.33
+2020-01-02 07:00        57.54
+2020-01-02 08:00       208.13
+2020-01-02 09:00       165.66
+2020-01-02 10:00       269.51
+2020-01-02 11:00       243.37
+Solving day-ahead market
+Computing day-ahead prices using method ACHP.
+Simulating time_step  2020-01-01 00:00
+
+Solving SCED instance
+Solving for LMPs
+Fixed costs:        26976.67
+Variable costs:       764.54
+
+Renewables curtailment reported at t=1 - total=      739.97
+
+Number on/offs:                 58
+Sum on/off ramps:             0.00
+Sum nominal ramps:           50.00
+
+Traceback (most recent call last):
+  File "/users/ylu28/GitHub/dispatches/dispatches/improved_pt/prescient_sweep/NE_PEM_case/./base_pcm_simulation.py", line 5, in <module>
+    Prescient().simulate(**prescient_options)
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/simulator/prescient.py", line 75, in simulate
+    return self._simulate(self.config)
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/simulator/prescient.py", line 82, in _simulate
+    return super().simulate(options)
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/simulator/simulator.py", line 112, in simulate
+    stats_manager.end_timestep(time_step)
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/simulator/stats_manager.py", line 157, in end_timestep
+    self._finish_timestep()
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/simulator/stats_manager.py", line 197, in _finish_timestep
+    self._current_hour_stats.incorporate_operations_stats(self._current_sced_stats)
+  File "/users/ylu28/.conda/envs/re_ne_pem/lib/python3.10/site-packages/prescient/stats/hourly_stats.py", line 202, in incorporate_operations_stats
+    setattr(self, field, add_to+val)
+TypeError: unsupported operand type(s) for +: 'float' and 'UndefinedData'

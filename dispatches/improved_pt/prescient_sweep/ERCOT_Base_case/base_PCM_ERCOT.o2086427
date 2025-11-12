@@ -1,0 +1,35 @@
+Initializing simulation...
+Traceback (most recent call last):
+  File "./base_pcm_ERCOT.py", line 9, in <module>
+    Prescient().simulate(**prescient_options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/prescient.py", line 75, in simulate
+    return self._simulate(self.config)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/prescient.py", line 82, in _simulate
+    return super().simulate(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/simulator.py", line 85, in simulate
+    engine.initialize(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/engine/egret/engine.py", line 80, in initialize
+    self._data_provider = options.data_provider.get_data_provider(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/data/data_provider_factory.py", line 26, in get_data_provider
+    return GmlcDataProvider(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/data/providers/gmlc_data_provider.py", line 34, in __init__
+    self._cache = parser.parse_to_cache(options.data_path, self._start_time, self._end_time)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/egret/parsers/rts_gmlc/parser.py", line 127, in parse_to_cache
+    model_data = _create_rtsgmlc_skeleton(rts_gmlc_dir)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/egret/parsers/rts_gmlc/parser.py", line 353, in _create_rtsgmlc_skeleton
+    _read_branches(base_dir, elements, bus_id_to_name)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/egret/parsers/rts_gmlc/parser.py", line 444, in _read_branches
+    branch_df = pd.read_csv(os.path.join(base_dir,'branch.csv'))
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/users/ylu28/GitHub/idaes-gtep/gtep/data/123_Bus_Coal/Prescient/branch.csv'

@@ -1,0 +1,19 @@
+Initializing simulation...
+Traceback (most recent call last):
+  File "./base_pcm_ERCOT.py", line 9, in <module>
+    Prescient().simulate(**prescient_options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/prescient.py", line 75, in simulate
+    return self._simulate(self.config)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/prescient.py", line 82, in _simulate
+    return super().simulate(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/simulator/simulator.py", line 85, in simulate
+    engine.initialize(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/engine/egret/engine.py", line 80, in initialize
+    self._data_provider = options.data_provider.get_data_provider(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/data/data_provider_factory.py", line 26, in get_data_provider
+    return GmlcDataProvider(options)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/prescient/data/providers/gmlc_data_provider.py", line 34, in __init__
+    self._cache = parser.parse_to_cache(options.data_path, self._start_time, self._end_time)
+  File "/users/ylu28/dispatches/lib/python3.8/site-packages/egret/parsers/rts_gmlc/parser.py", line 124, in parse_to_cache
+    raise ValueError(f'RTS-GMLC directory "{rts_gmlc_dir}" does not exist')
+ValueError: RTS-GMLC directory "/users/ylu28/GitHub/idaes-gtep/gtep/data/123_Bus_Coal/Prescient" does not exist
